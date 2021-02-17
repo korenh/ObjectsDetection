@@ -86,7 +86,7 @@ export default class App extends Component {
           className="Particles"
           params={{ particles: { number: { value: 200, density: { enable: true, value_area: 5000, }, }, }, }}
         />
-        {this.state.loading ? <div className="loading-page"><div className='loader' /></div> : ''}
+        {this.state.loading ? <div className="loading-page"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div> : ''}
         <div className='main-flex'>
           <div className='form-main'>
             <FilePond

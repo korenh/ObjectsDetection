@@ -8,7 +8,6 @@
 
 ```python
 pip install {Deps}
-
 python server.py
 ```
 
@@ -16,8 +15,6 @@ python server.py
 
 ```javascript
 cd client 
-
 npm install
-
 npm start 
 ```
